@@ -13,12 +13,12 @@
 ################################################################# */
 
 /* Import fonts */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 * {
 	margin: 0;
 	padding: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 body {
 	background: #fff;
@@ -27,15 +27,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 
 p {
 	padding: 0;
 	margin-bottom: 12px;
-    font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
@@ -264,8 +262,8 @@ input {
 
 /* Pricing Tables */
 .price-table {
-	border: 2px solid #5a5a5a;
-	border-radius: 25px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
 	padding-top: 5px;
 	padding-bottom: 10px;
 	margin: 5px;
@@ -277,7 +275,7 @@ input {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	line-height: 80px;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 1px solid #ddd;
 }
 
 .p-body{
@@ -286,7 +284,7 @@ input {
 
 .price-table .p-body .features li {
 	color: #333333;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 1px solid #ddd;
 	padding: 24px 0px;
 	margin: 0;
 	letter-spacing: 1px;
