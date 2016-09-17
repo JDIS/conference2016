@@ -295,6 +295,7 @@ input {
 }
 
 .p-body{
+  text-align:left;
 	padding: 10px 20px 0 20px;
 }
 
@@ -345,7 +346,7 @@ ul {
 
 /* GREEN SECTION - TESTIMONIAL */
 
-#green {
+.green {
 	padding-top: 90px;
 	padding-bottom: 60px;
 	min-height: 300px;
@@ -353,12 +354,12 @@ ul {
 	color: white;
 }
 
-#green tgr {
+.green tgr {
 	font-weight: 700;
 	letter-spacing: 1px;
 }
 
-#green p {
+.green p {
 	color: white;
 }
 
