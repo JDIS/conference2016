@@ -334,9 +334,12 @@ ul {
 }
 
 .sponsor img {
+  width:auto;
 	max-width: 140px;
 	max-height: 60px;
 	vertical-align: middle;
+  display: inline-block;
+  margin-bottom:25px;
 }
 
 .sponsor .col-sm-2 {
@@ -387,4 +390,10 @@ i {
 
 #f a:hover {
 	color: #03C9A9;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
